@@ -2,6 +2,9 @@
 Create proof and root values for a Merkle Tree whitelist for your NFT drop - saves time and gas fees.
 We use it on www.envoverse.com for our whitelist sale, which we call VIP sale and that happens regularly.
 
+See YouTube video here:
+https://youtu.be/WQI_xo_QRsk
+
 ## install
 `npm install`
 the dependencies of the package.json
