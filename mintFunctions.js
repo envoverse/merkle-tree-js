@@ -103,15 +103,6 @@ function startVIPmint() {
     $.getJSON( "getProof.php?wallet=" + activeWallet, function( data ) {
         var items = [];
         tokenCounter = 0;
-        $.each( data, function( key, val ) {
-            items.push( "<li id='" + key + "'>" + key + ": " + val + "</li>" );
-        });
-
-        $( "<ul/>", {
-            "class": "my-new-list",
-            html: items.join( "" )
-        }).appendTo( "#verifyWallet" );
-
         myProof = data.PROOF;
 
         console.log("proof: ",myProof);
