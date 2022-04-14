@@ -1,2 +1,17 @@
 # merkle-tree-js
-Create proof and root values for a Merkle Tree whitelist for your NFT drop - saves time and gas fees
+Create proof and root values for a Merkle Tree whitelist for your NFT drop - saves time and gas fees.
+We use it on www.envoverse.com for our whitelist sale, which we call VIP sale and that happens regularly.
+
+## install
+`npm install`
+the dependencies of the package.json
+
+## formats and files
+Needs a list of wallets (or strings for that matter) in VIPlist.json
+
+## usage
+Get the root (for the VIPlist.json text file) AND the proof for an allowed wallet by calling node this way:
+`WALLET=0x0YOURWALLETSTRING12345 node createVIPvalues.js`
+
+## credits:
+Based on https://github.com/Qambar merkle-tree tutorial
