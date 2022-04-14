@@ -13,5 +13,10 @@ Needs a list of wallets (or strings for that matter) in VIPlist.json
 Get the root (for the VIPlist.json text file) AND the proof for an allowed wallet by calling node this way:
 `WALLET=0x0YOURWALLETSTRING12345 node createVIPvalues.js`
 
+## note
+Works with our smart contract for example:
+https://github.com/envoverse/smart-contract-eth
+on the ETH blockchain.
+
 ## credits:
 Based on https://github.com/Qambar merkle-tree tutorial
